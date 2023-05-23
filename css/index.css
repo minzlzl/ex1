@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing:border-box;/*모든 태그에 집어 넣기*/
+
+}
+
+.wrap{
+  width:1045px;
+  padding:80px;
+  margin:auto;
+  background:#f6f5f5;
+  border:1px solid #ccc;
+  text-align:center;
+  margin-top:50px;
+  
+}
+.wrap > h1{
+  color:#dc3545;
+  font-size:36px;
+  font-weight:400;
+  margin-bottom: 28px;
+} 
+.wrap > p{
+  font-size:18px;
+  color:#424d59;
+  font-weight:200;
+  margin-bottom:76px;
+}
+.wrap > div{
+  display:flex;
+  justify-content:space-between;
+
+  
+}
+.wrap > div > p{
+  width:32%;
+}
+.wrap > div > p > img{
+  width:100%;
+  filter:grayscale(100%);
+}
+.wrap > div > p > img:hover{
+  filter:grayscale(0%);
+
+}
